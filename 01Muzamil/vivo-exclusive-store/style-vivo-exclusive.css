@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+:root {
+  --logo-initial-color: #242933;
+  --vivo-blue: #415fff;
+  --background-white:#FEFEFE;
+  --background-white-2:#F5F7FA;
+  --footer-bg:#242933;
+  --text-grey:#8A8F99;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sen', sans-serif;
+  overflow-x: hidden;
+}
+body {
+  width: 100vw;
+  background-color: var(--background-white)
+}
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* navbar-start */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 13rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-white);
+  height: 5.375rem;
+  position: fixed;
+  z-index: 10000;
+}
+
+/* logo */
+
+.logo-div{
+  width: 5.7rem;
+}
+svg{
+  width: 100%;
+}
+.logo-div #common-path {
+  fill: var(--logo-initial-color);
+  transition: fill 0.4s ease-in; 
+}
+
+.logo-div:hover #common-path {
+  fill: var(--vivo-blue);
+}
+/* sectionids */
+
+.sectionids-ul {
+  display: flex;
+  flex-direction: row;
+  transition: color 0.4s;
+}
+.sectionids-ul li {
+  padding: 0 1.25vw;
+}
+.sectionids-ul li a {
+  font-size: 14px;
+  color: var(--logo-initial-color);
+  transition: color 0.2s ease 0s;
+}
+.sectionids-ul li a:hover {
+  color: var(--vivo-blue);
+}
+
+/* icons-nav */
+.icon-div ul{
+  display: flex;
+  flex-direction: row;
+}
+.icon-div ul li{
+  padding: 0 1.2vw;
+}
+.icon-div ul li svg {
+  width: 24px; 
+  transition: fill 0.3s; 
+}
+.icon-div ul li:hover #common-path {
+  fill: var(--vivo-blue);
+}
+
+.home-main {
+    height: 95vh;
+    width: 100%;
+    background-image: url(./assests/bg-main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin-top: 2rem;
+    position: relative; 
+ }
+ /* footer-start */
+footer{
+    background-color: var(--footer-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .upper-text{
+    display: flex;
+    justify-content: space-between;
+    width: 82rem;
+  }
+  .left-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-attributes{
+    width: 9rem;
+    margin-right: 2rem;
+    padding: 4rem 0;
+  }
+  .footer-attributes h4{
+    color: white;
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+  }
+  .footer-attributes a{
+    color:var(--text-grey);
+    transition: color .4s;
+    font-weight: normal;
+  }
+  .footer-attributes a:hover{
+    color:var(--vivo-blue);
+  }
+  .footer-attributes h5{
+    line-height: 2rem;
+  }
+  .right-container {
+    width: 18rem;
+    padding-top: 4rem ;
+  }
+  
+  .right-upper-msg-box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .msg-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: var(--text-grey);
+    height: 40px;
+    transition: color 0.3s ease;
+  }
+  .msg-link:hover{
+    color:var(--vivo-blue);
+  }
+  .msg-link:hover #common-path{
+    fill: var(--vivo-blue);
+  }
+  
+  .msg-link svg {
+    height: 44%;
+    width: 24px;
+    margin-right: 8px;
+  }
+  .msg-link svg #common-path{
+    fill:var(--text-grey);
+    transition: color 0.3s ease;
+  }
+  
+  .msg-link i {
+    margin-right: 8px; 
+    font-size: 20px;
+  }
+  .footer-msg-box {
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    color: var(--text-grey);
+    margin-bottom: 10px;
+  }
+  
+  .footer-msg-box svg {
+    height: 40px;
+    width: 24px;
+    margin-right: 8px; 
+  }
+  
+  .footer-msg-box p {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-msg-title {
+    font-weight: normal; 
+  }
+  
+  .footer-msg-tel {
+    font-size: 24px; 
+    color: white;
+  }
+  
+  .icons-holder {
+    display: flex;
+    margin-top: 2rem;
+  }
+  
+  .icons-holder svg {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .social-icons-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-icons-container p{
+    font-size: 22px;
+    color: var(--text-grey);
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .social-icons svg {
+    margin-top: 12px;
+    width: 40px;
+    height: 30px;
+    margin-bottom: 3rem;
+  }
+  .social-icons svg:hover .blue-hover {
+    fill: var(--vivo-blue); 
+  }
+  
+  .social-icons svg:hover .white-hover  {
+    fill: white;  
+  }
+  footer hr{
+    width: 82rem;
+    border-color:var(--text-grey);
+  }
+  .bottom-text {
+    display: flex;
+    justify-content: space-between;
+    width: 82rem;
+  }
+  
+  .bottom-text-1 {
+    text-align: right;
+    color: var(--text-grey);
+    font-size: smaller;
+    padding: 2rem 0;
+  }
+  
+  .bottom-text-2 {
+    text-align: left;
+    color: var(--text-grey);
+    display: flex;
+    align-items: center;
+  }
+  .bottom-text-2 #p1{
+    font-size: x-small;
+    padding: 2px;
+  }
+  .bottom-text-2 span{
+    font-size: 18px;
+    overflow-y: hidden;
+  }
+  
+  /* footer-end */
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .navbar {
+      padding: 0 7rem;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* navbar */
+    .navbar {
+      padding: 0 1.5rem;
+    }
+    .sectionids-ul li a {
+      font-size: 13px;
+    }
+    .logo-div svg{
+      width: 70%;
+    }
+    .icon-div ul li svg {
+      width: 19px; 
+    }
+    /* navbar */
+    /* home-section */
+  
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 3rem;
+    }
+    
+    .logo-div {
+      order: 1;
+    }
+    
+    .icon-div {
+      order: 3;
+    }
+    
+    .sectionids {
+      display: none;
+      position: fixed;
+      top: 100%; /* Position below the navbar */
+      left: 0;
+      width: 100%;
+      height: 50%;
+      background-color: rgba(0, 0, 0, 0.5);
+      overflow: auto;
+      color: white;
+    }
+  
+    #overlay {
+      display: block;
+      pointer-events: auto;
+      visibility: visible;
+    }
+  
+    .sectionids {
+      font-size: 16px;
+      color: white;
+    }
+  }
+  
