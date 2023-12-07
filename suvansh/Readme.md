@@ -18,25 +18,30 @@ The emphasis on semantic HTML not only improves code readability but also contri
 ## Screenshots
 
 ### Header Section
-![Header Section](/screenshots/header.png)
+![Header Section]![header](https://github.com/Suvansh-7harma/vivo-web/assets/139106136/75b8092b-e749-4d22-b303-c62413a084d8)
+
 
 
 Caption: Screenshot of the header section with navigation links.
 
 ### Learn More Section
-![Learn More Section](/screenshots/learn-more.png)
+![Learn More Section](/screenshots/learn-more.png)![learn-more](https://github.com/Suvansh-7harma/vivo-web/assets/139106136/d4ee80cb-121f-4f4c-9853-a89ab89d587e)
+
 Caption: Screenshot of the "Learn More" section with detailed information.
 
 ### News-1 Section
-![News-1 Section](/screenshots/news-1.png)
+![News-1 Section](/screenshots/news-1.png)![news-1](https://github.com/Suvansh-7harma/vivo-web/assets/139106136/48159c15-d82c-4e61-a145-f2d7791dd971)
+
 Caption: Screenshot of the "News-1" section with the latest news.
 
 ### News-2 Section
-![News-2 Section](/screenshots/news-2.png)
+![News-2 Section](/screenshots/news-2.png)![news-2](https://github.com/Suvansh-7harma/vivo-web/assets/139106136/8bf7521b-e394-4e7b-94b9-cf9f2e52ab15)
+
 Caption: Screenshot of the "News-2" section with additional news content.
 
 ### Culture Section
-![Culture Section](/screenshots/culture.png)
+![Culture Section](/screenshots/culture.png)![culture](https://github.com/Suvansh-7harma/vivo-web/assets/139106136/2877de1e-146c-49a6-8c19-ccfcd2625737)
+
 Caption: Screenshot of the "Culture" section with cultural highlights.
 
 Feel free to explore the repository for more detailed visuals and code implementation.
